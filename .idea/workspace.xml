@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60e84f14-386e-43de-a87d-d6e252a44aab" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1pWwfgBmRva65BPPPmRnsmEjRpa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ion_range/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e84f14-386e-43de-a87d-d6e252a44aab" name="Default Changelist" comment="" />
+      <created>1615312258310</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615312258310</updated>
+      <workItem from="1615312259393" duration="9579000" />
+      <workItem from="1615354920483" duration="9915000" />
+      <workItem from="1615378512725" duration="1711000" />
+      <workItem from="1615483792413" duration="15862000" />
+      <workItem from="1615568150542" duration="9693000" />
+      <workItem from="1615627468091" duration="12806000" />
+      <workItem from="1615785956262" duration="7000" />
+      <workItem from="1615785964065" duration="13719000" />
+      <workItem from="1615836404149" duration="4555000" />
+      <workItem from="1615893513330" duration="5462000" />
+      <workItem from="1615913524619" duration="12627000" />
+      <workItem from="1615983777104" duration="2475000" />
+      <workItem from="1616005455168" duration="8801000" />
+      <workItem from="1616075592391" duration="6000" />
+      <workItem from="1616075600237" duration="4000000" />
+      <workItem from="1618811357786" duration="184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2660" y="273" key="FileChooserDialogImpl" timestamp="1616140500252">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1616075597151" />
+    <state x="2660" y="273" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1616140500252" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1615498852398">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1615498852398" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1615312652574">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1615312652574" />
+  </component>
+</project>

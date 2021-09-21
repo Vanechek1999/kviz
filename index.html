@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/ion.rangeSlider.css">
+    <title>Document</title>
+</head>
+<body>
+<canvas></canvas>
+<div class="block2">
+    <form action="" method="post" class="form_block">
+        <div class="item active">
+            <div class="content first none active1" data-tub="1">
+                <div class="content_h"> Получите расчет стоимости банкротства под ваш случай за 2 минуты</div>
+                <div class="content_q">Какая сумма всех ваших кредитов и долгов?</div>
+                <input type="hidden" value="">
+                <input type="text" data-text="0" class="js-answer firstAnswer" data-quest="what_sum" name="answers[]">
+                <div class="js-message"></div>
+                <div class="btn">
+                    <span class="show_me" data-tub="2"><span class="next-question">Следущий вопрос</span></span>
+                </div>
+
+            </div>
+            <div class="count first1 transparent" data-tub="1">
+                <div class="text"> сумма всех ваших кредитов
+                    и долгов?</div>
+                <span class="val_show val_show1 show_value" data-tub="1">1</span>
+            </div>
+        </div>
+        <div class="item">
+            <div class="content none" data-tub="2">
+                <div class="content_h">Получите расчет стоимости банкротства под ваш случай за 2 минуты</div>
+                <div class="content_q">У вас есть просрочки по кредитам в данный момент?  </div>
+                <input type="hidden"  class="js-answer" data-quest="what_sum" name="answers[]">
+                <ul>
+                    <li class="js-radioBtn">
+                    <label>
+                        <input type="radio"  name="selector"> <span>Нет</span> 
+                    </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-radioBtn">
+                        <label>
+                            <input type="radio"  name="selector"> <span>До 1 месяца</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-radioBtn">
+                        <label>
+                            <input type="radio"  name="selector"> <span>3 месяца</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-radioBtn">
+                        <label>
+                            <input type="radio"  name="selector"> <span>Более 3 месяцев</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                </ul>
+                <div class="js-message"></div>
+                <div class="btn">
+                    <span class="show_me" data-tub="3"><span class="next-question">Следущий вопрос</span></span>
+                </div>
+            </div>
+            <div class="count" data-tub="2">
+                <div class="text">Просрочки по кредитам</div>
+                <span class="val_show" data-tub="2">2</span>
+            </div>
+        </div>
+        <div class="item ">
+            <div class="content none" data-tub="3">
+                <div class="content_h">Получите расчет стоимости банкротства под ваш случай за 2 минуты</div>
+                <div class="content_q">Какой ваш ежемесячный платеж по всем кредитам? </div>
+                <input type="hidden" value="">
+                <input type="text" data-text="0" class="js-answer" data-quest="what_sum" name="answers[]">
+                <div class="js-message"></div>
+                <div class="btn">
+                    <span class="show_me" data-tub="4"><span class="next-question">Следущий вопрос</span></span>
+                </div>
+            </div>
+            <div class="count" data-tub="3">
+                <div class="text">Ежемесячный платеж</div>
+                <span class="val_show" data-tub="3">3</span>
+            </div>
+        </div>
+        <div class="item ">
+            <div class="content none" data-tub="4">
+                <div class="content_h">Получите расчет стоимости банкротства под ваш случай за 2 минуты</div>
+                <div class="content_q">Есть ли у вас имущество? </div>
+                <input type="hidden" class="js-answer" data-quest="what_sum" name="answers[]">
+                <ul>
+                    <li class="js-checkBox">
+                        <label>
+                            <input type="checkbox"  name="selector"> <span> Нет</span>
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-checkBox">
+                        <label>
+                            <input type="checkbox"  name="selector"> <span>Автомобиль</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-checkBox">
+                        <label>
+                            <input type="checkbox"  name="selector"> <span>Квартира без ипотеки</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-checkBox">
+                        <label>
+                            <input type="checkbox"  name="selector"> <span>Квартира в ипотеку</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-checkBox">
+                        <label>
+                            <input type="checkbox"  name="selector"><span>Гараж</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-checkBox">
+                        <label>
+                            <input type="checkbox"  name="selector"> <span>Земельный участок</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-checkBox">
+                        <label>
+                            <input type="checkbox"  name="selector"> <span>Коммерческая недвижимость</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                </ul>
+                <div class="js-message"></div>
+                <div class="btn">
+                    <span class="show_me" data-tub="5"><span class="next-question">Следущий вопрос</span>
+                </div>
+            </div>
+            <div class="count" data-tub="4">
+                <div class="text">Имущество</div>
+                <span class="val_show" data-tub="4">4</span>
+            </div>
+        </div>
+        <div class="item ">
+            <div class="content none" data-tub="5">
+                <div class="content_h">Получите расчет стоимости банкротства под ваш случай за 2 минуты</div>
+                <div class="content_q">У вас есть официальный источник дохода? </div>
+                <input type="hidden" class="js-answer" data-quest="what_sum" name="answers[]">
+                <ul>
+                    <li class="js-radioBtn">
+                        <label>
+                            <input type="radio"  name="selector1"> <span>Да</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                    <li class="js-radioBtn">
+                        <label>
+                            <input type="radio"  name="selector1"> <span>Нет</span> 
+
+                        </label>
+                        <div class="check">
+
+                        </div>
+                    </li>
+                </ul>
+                <div class="js-message"></div>
+                <div class="btn">
+                    <span class="show_me" data-tub="6"><span class="next-question">Следущий вопрос</span></span>
+                </div>
+            </div>
+            <div class="count" data-tub="5">
+                <div class="text">Источник дохода</div>
+                <span class="val_show" data-tub="5">5</span>
+            </div>
+        </div>
+        <div class="item ">
+            <div class="content none" data-tub="6">
+                <div class="content_h">Получите расчет стоимости банкротства под ваш случай за 2 минуты</div>
+                <div class="content_q">Какая сумма всех ваших кредитов и долгов?</div>
+                <input type="hidden" value="">
+                <input type="text" data-text="0" data-quest="what_sum">
+                <div class="btn btn_submit">
+                    <span class="show_me" data-tub="7"><span>Отправить форму</span></span>
+                </div>
+            </div>
+            <div class="count" data-tub="6">
+                <div class="text">Расчет</div>
+                <span class="val_show" data-tub="6">6</span>
+            </div>
+            <input type="hidden" name="what_sum" value="">
+            <input type="hidden" name="type_object" value="">
+            <input type="hidden" name="type_object" value="">
+            <input type="hidden" name="type_object" value="">
+            <input type="hidden" name="type_object" value="">
+        </div>
+    </form>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/ion.rangeSlider.js"></script>
+<script src="js/script.js" ></script>
+</body>
+</html>
